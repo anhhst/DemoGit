@@ -4,8 +4,13 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends Activity {
+	private Button btnDem;
+	private TextView tvDem;
+	private int mTime = 50;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
